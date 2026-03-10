@@ -1,0 +1,86 @@
+body{
+background:#f2f2f2;
+font-family: Georgia, serif;
+}
+
+/* Logo */
+
+.logo{
+font-size:36px;
+font-weight:500;
+}
+
+/* Menü */
+
+.nav-link{
+color:#333;
+font-size:14px;
+margin:0 10px;
+}
+
+.nav-link:hover{
+text-decoration:underline;
+}
+
+/* Başlık */
+
+.section-title{
+margin-top:40px;
+margin-bottom:40px;
+}
+
+/* Galeri */
+
+.gallery{
+max-width:800px;
+}
+
+.artwork{
+border-radius:4px;
+transition:0.3s;
+}
+
+.artwork:hover{
+transform:scale(1.03);
+}
+.about-section{
+max-width:600px;
+margin-top:40px;
+}
+
+/* profil çerçevesi */
+
+.profile-frame{
+display:flex;
+justify-content:center;
+}
+
+.profile-img{
+width:300px;
+padding:20px;
+background:white;
+border:8px solid #e5e5e5;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* about text */
+
+.about-text{
+margin-top:20px;
+font-size:14px;
+color:#444;
+line-height:1.6;
+}
+
+/* footer */
+
+footer{
+margin-top:80px;
+font-size:14px;
+}
+
+.social-icons i{
+margin:0 6px;
+font-size:18px;
+cursor:pointer;
+}
